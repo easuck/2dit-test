@@ -1,0 +1,28 @@
+.Accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgba(198, 205, 218, 1);
+    padding: 20px;
+    flex: 1;
+    cursor: pointer;
+    user-select: none;
+    &_title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & > span{
+            font-size: 15px;
+            font-weight: 700;
+            color: rgba(40, 63, 117, 1);
+        }
+        
+        & > img{
+            width: 10px;
+        }
+    }
+    &_content{
+        
+    }
+
+}
