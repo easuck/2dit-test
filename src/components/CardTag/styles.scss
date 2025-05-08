@@ -1,0 +1,28 @@
+.CardTag{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    gap: 3px;
+    & > img{
+        width: 7px;
+    }
+    & > span{
+        font-size: 9px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: white;
+    }
+    &_hit{
+        background: rgba(163, 32, 24, 1);
+    }
+    &_sale{
+        background: rgba(224, 205, 28, 1);
+    }
+    &_new{
+        background: rgba(8, 122, 40, 1);
+    }
+}

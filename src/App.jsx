@@ -1,5 +1,6 @@
 import './App.scss';
 import AccordionContainer from './components/AccordionContainer/AccordionContainer';
+import Grid from './components/Grid/Grid';
 
 const App = () => { 
   const wpContent = 
@@ -12,6 +13,7 @@ const App = () => {
   return(
     <div className='App'>
       <AccordionContainer html={wpContent}/>
+      <Grid/>
     </div>
   )
 }
