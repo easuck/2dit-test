@@ -2,8 +2,8 @@ import './styles.scss';
 
 const CardTag = ({tag}) => {
     const tags = {
-        1: ['Хит продаж', './Star.png', 'CardTag_hit'],
-        2: ['Акция', './Discount.png', 'CardTag_sale'],
+        1: ['Хит продаж', './Star.svg', 'CardTag_hit'],
+        2: ['Акция', './Discount.svg', 'CardTag_sale'],
         3: ['Новинка', './Rocket.svg', 'CardTag_new']
     }
     return(
